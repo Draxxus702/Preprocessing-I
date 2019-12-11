@@ -56,7 +56,7 @@ table {
 html, body {
 	height: 100%;
 	font-size:62.5%;
-	margin:2%;
+	margin:2% 4%;
 }
 @color: white;
 @fontsize: 1.6rem;
@@ -101,20 +101,24 @@ nav a:hover{
 header{
 	background: #e5dfdf;
 	display:flex;
-	flex-direction:column;
 	justify-content: center;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	margin-bottom: 4%;
+	margin-right: 4%;
 }
 	.header-img{
-	margin:auto auto 2% 3%;
 	height:50vh;
 	margin-top:5%;
+	max-width:100%;
 
 	@media(max-width: 500px){
 		height:30vh;
 	}
+}
+
+	.intro{
+		margin-top:4%;
 }
 
 	.header-info, .header-info2{
